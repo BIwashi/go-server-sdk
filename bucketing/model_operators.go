@@ -1,6 +1,6 @@
 package bucketing
 
-import "github.com/devcyclehq/go-server-sdk/v2/api"
+import "github.com/BIwashi/go-server-sdk/v2/api"
 
 type AudienceOperator struct {
 	Operator string       `json:"operator"`

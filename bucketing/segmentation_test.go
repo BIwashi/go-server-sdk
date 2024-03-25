@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/devcyclehq/go-server-sdk/v2/api"
+	"github.com/BIwashi/go-server-sdk/v2/api"
 )
 
 var brooks = api.PopulatedUser{

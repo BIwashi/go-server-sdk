@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	devcycle "github.com/devcyclehq/go-server-sdk/v2"
+	devcycle "github.com/BIwashi/go-server-sdk/v2"
 )
 
 var (

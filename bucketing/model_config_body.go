@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-playground/validator/v10"
 
-	"github.com/devcyclehq/go-server-sdk/v2/api"
+	"github.com/BIwashi/go-server-sdk/v2/api"
 )
 
 // use a single instance of Validate, it caches struct info

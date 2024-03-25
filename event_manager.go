@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/devcyclehq/go-server-sdk/v2/api"
-	"github.com/devcyclehq/go-server-sdk/v2/util"
+	"github.com/BIwashi/go-server-sdk/v2/api"
+	"github.com/BIwashi/go-server-sdk/v2/util"
 )
 
 type EventFlushCallback func(payloads map[string]FlushPayload) (*FlushResult, error)

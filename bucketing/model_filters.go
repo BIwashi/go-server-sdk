@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/devcyclehq/go-server-sdk/v2/api"
-	"github.com/devcyclehq/go-server-sdk/v2/util"
+	"github.com/BIwashi/go-server-sdk/v2/api"
+	"github.com/BIwashi/go-server-sdk/v2/util"
 )
 
 // A FilterOrOperator represents either an individual filter or a nested sequence of filters with a logical operator.

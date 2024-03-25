@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/devcyclehq/go-server-sdk/v2/api"
+	"github.com/BIwashi/go-server-sdk/v2/api"
 )
 
 func filterForAudienceMatch(filter *AudienceMatchFilter, configAudiences map[string]NoIdAudience, user api.PopulatedUser, clientCustomData map[string]interface{}) bool {
@@ -271,7 +271,7 @@ func _checkNumberFilter(num float64, filterNums []float64, operator string) bool
 		}
 		return passesFilter
 	}
-	
+
 	// replace filterNums.some() logic
 	someValue := false
 	for _, filterNum := range filterNums {

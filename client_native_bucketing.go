@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/devcyclehq/go-server-sdk/v2/util"
+	"github.com/BIwashi/go-server-sdk/v2/util"
 
-	"github.com/devcyclehq/go-server-sdk/v2/api"
+	"github.com/BIwashi/go-server-sdk/v2/api"
 
-	"github.com/devcyclehq/go-server-sdk/v2/bucketing"
+	"github.com/BIwashi/go-server-sdk/v2/bucketing"
 )
 
 const NATIVE_SDK = true

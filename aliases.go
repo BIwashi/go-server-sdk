@@ -1,9 +1,9 @@
 package devcycle
 
 import (
-	"github.com/devcyclehq/go-server-sdk/v2/api"
-	"github.com/devcyclehq/go-server-sdk/v2/bucketing"
-	"github.com/devcyclehq/go-server-sdk/v2/util"
+	"github.com/BIwashi/go-server-sdk/v2/api"
+	"github.com/BIwashi/go-server-sdk/v2/bucketing"
+	"github.com/BIwashi/go-server-sdk/v2/util"
 )
 
 // Aliases for the types in the api package

@@ -1,10 +1,10 @@
-module github.com/devcyclehq/go-server-sdk/v2/bench-dd
+module github.com/BIwashi/go-server-sdk/v2/bench-dd
 
 go 1.19
 
 require (
 	github.com/HdrHistogram/hdrhistogram-go v1.1.2
-	github.com/devcyclehq/go-server-sdk/v2 v2.9.5
+	github.com/BIwashi/go-server-sdk/v2 v2.9.5
 	gopkg.in/DataDog/dd-trace-go.v1 v1.48.0
 )
 
@@ -57,4 +57,4 @@ require (
 	inet.af/netaddr v0.0.0-20220617031823-097006376321 // indirect
 )
 
-replace github.com/devcyclehq/go-server-sdk/v2 => ../.
+replace github.com/BIwashi/go-server-sdk/v2 => ../.

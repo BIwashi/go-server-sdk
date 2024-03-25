@@ -17,14 +17,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/devcyclehq/go-server-sdk/v2/api"
+	"github.com/BIwashi/go-server-sdk/v2/api"
 
 	"github.com/HdrHistogram/hdrhistogram-go"
 	httptrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/net/http"
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
 	"gopkg.in/DataDog/dd-trace-go.v1/profiler"
 
-	devcycle "github.com/devcyclehq/go-server-sdk/v2"
+	devcycle "github.com/BIwashi/go-server-sdk/v2"
 
 	"time"
 )

@@ -3,7 +3,7 @@ package devcycle
 import (
 	"flag"
 	"fmt"
-	"github.com/devcyclehq/go-server-sdk/v2/util"
+	"github.com/BIwashi/go-server-sdk/v2/util"
 	"github.com/stretchr/testify/require"
 	"io"
 	"log"

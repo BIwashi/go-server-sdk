@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/devcyclehq/go-server-sdk/v2/util"
+	"github.com/BIwashi/go-server-sdk/v2/util"
 	"github.com/open-feature/go-sdk/pkg/openfeature"
 )
 

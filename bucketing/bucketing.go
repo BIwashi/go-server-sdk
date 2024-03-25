@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/devcyclehq/go-server-sdk/v2/api"
-	"github.com/devcyclehq/go-server-sdk/v2/util"
+	"github.com/BIwashi/go-server-sdk/v2/api"
+	"github.com/BIwashi/go-server-sdk/v2/util"
 )
 
 // Max value of an unsigned 32-bit integer, which is what murmurhash returns

@@ -1,7 +1,7 @@
 package bucketing
 
 import (
-	"github.com/devcyclehq/go-server-sdk/v2/api"
+	"github.com/BIwashi/go-server-sdk/v2/api"
 )
 
 type FeatureConfiguration struct {
