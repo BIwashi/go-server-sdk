@@ -1,6 +1,7 @@
 package devcycle
 
 import (
+	"bytes"
 	"context"
 	"encoding/json"
 	"fmt"
@@ -140,6 +141,15 @@ func (e *EnvironmentConfigManager) setConfigFromResponse(response *http.Response
 	if err != nil {
 		return err
 	}
+
+	var prettyJSON bytes.Buffer
+	error := json.Indent(&prettyJSON, config, "", "    ")
+	if error != nil {
+		fmt.Printf("JSON parse error: %s", error)
+	} else {
+		fmt.Printf("body: %s\n", prettyJSON.String())
+	}
+
 	// Check
 	valid := json.Valid(config)
 	if !valid {
